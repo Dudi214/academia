@@ -37,7 +37,7 @@ export default function Pricing() {
                                           initial = {{opacity:0, y: 24, scale: 0.98}}
                                           whileInView = {{opacity:1, y:0, scale:1}}
                                           viewport={{once: true}}
-                                         transition = {{duration:0.6, ease:"easeOut", delay: 0.1 * i}}key={plan.name} className="relative">
+                                         transition = {{duration:0.6, ease:"easeOut", delay: 0.1 * i}}key={plan.name} className="relative group transition-transform duration-300 hover:scale-105">
 
                                          <Card className={`${plan.popular? "border-primary border-2 ring-1 ring-primary/20" : ""}`}>
                                           {plan.popular && (
