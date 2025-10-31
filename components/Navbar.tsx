@@ -18,7 +18,7 @@ export default function Navbar() {
                     <div className="flex items-baseline space-x-8">
                      {navItems.map((item) => (
                        <a 
-                        className="text-foreground hover:text-primary px-3 py-2 text-sm font-medium transition-colors duration-300" 
+                        className="text-foreground hover:text-primary px-3 py-2 text-xl font-medium transition-colors duration-300" 
                         key={item.name} 
                          href={item.href}
                          >
@@ -32,7 +32,15 @@ export default function Navbar() {
                 {/* CTA */}
                 <div className="hidden md:flex items-center space-x-4">
                     <ThemeToggle />
-                    <Button className='font-semibold'>Join Now</Button>
+                      <a 
+                      href="https://wa.me/5524999996655?text=Olá,%20quero%20fazer%20minha%20inscrição%20na%20academia!" 
+                       target="_blank" 
+                       rel="noopener noreferrer"
+                       >
+                      <Button className='font-semibold'>
+                       Junte-se agora
+                     </Button>
+                     </a>
                 </div>
 
                 {/* Mobile navigation */}

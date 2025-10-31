@@ -6,32 +6,32 @@ export default function WhyChooseUs() {
     const features= [
         {
             Icon: CheckCircle,
-            title: "Certified Professionals Trainers",
-            description: "Work with certified fitness professionals who have years of experience and expertise."
+            title: "Instrutores Profissionais Certificados",
+            description: "Trabalhe com profissionais  certificados que tenham anos de experiência e conhecimento."
         },
 
          {
             Icon: TrendingUp,
-            title: "Personalized Workout & Diet Plans",
-            description: "Get Custmized plans tailored to your specific goals, Fitness Level, and Preferences.",
+            title: "Planos de treino e dieta personalizados",
+            description: "Obtenha planos personalizados adaptados aos seus objetivos específicos, nível de condicionamento físico e preferências.",
         },
 
          {
             Icon: Calendar,
-            title: "Flexible Schedules",
-            description: "Choose from online and off-line sessions that fit your busy lifestyle and schedule.",
+            title: "Horários Flexíveis",
+            description: "Escolha entre sessões online e off-line que se adaptam ao seu estilo de vida e agenda ocupados.",
         },
 
          {
             Icon: Users,
-            title: "Community Support & Progress Tracking",
-            description: "Join a supportive community and track your progress with our advanced monitoring tools."
+            title: "Apoio comunitário e acompanhamento do progresso",
+            description: "Junte-se a uma comunidade solidária e acompanhe seu progresso com nossas ferramentas avançadas de monitoramento."
         },
     ]
 
 
 
-    return <section className="py-20 bg-background">
+    return <section id="sobre" className="py-20 bg-background">
             <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
                 <div className="text-center mb-16">
                     <motion.h2 
@@ -39,7 +39,7 @@ export default function WhyChooseUs() {
                     whileInView = {{opacity:1, y:0}}
                     viewport={{once: true}}
                     transition = {{duration:0.6, ease:"easeOut"}}
-                    className="text-4xl md:text-5xl font-black font-heading mb-4 text-foreground">Why Choose <span className="text-primary">FitPro</span> Fitness</motion.h2>
+                    className="text-4xl md:text-5xl font-black font-heading mb-4 text-foreground">Por que escolher <span className="text-primary">FitPro</span> Fitness</motion.h2>
                     
                     <motion.p 
                       initial = {{opacity:0, y: 12}}
@@ -49,8 +49,7 @@ export default function WhyChooseUs() {
                      
                     
                       className="text-xl text-muted-foreground max-w-2xl mx-auto">
-                        We provide everything you need to succed on your fitness journey 
-                        with  proven methods and expert support.
+                       Oferecemos tudo o que você precisa para ter sucesso em sua jornada fitness com métodos comprovados e suporte especializado.
                     </motion.p>
                 </div>
 

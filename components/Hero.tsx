@@ -3,7 +3,7 @@ import Image from "next/image"
 import { Button } from "./ui/button";
 export  default  function Hero () {
     return (
-    <section className="h-screen relative flex items-center justify-center overflow-hidden pt-16">
+    <section id="home" className="h-screen relative flex items-center justify-center overflow-hidden pt-16">
         <div className="absolute inset-0">
             <Image src="/heroNew.jpg" 
              alt="Fitness Background" fill 
@@ -21,7 +21,7 @@ export  default  function Hero () {
              animate={{opacity: 1, y: 0}}
              transition={{ duration: 0.7, ease:"easeInOut"}}
              className=" text-5xl md:text-7xl font-heading mb-6 leading-tighter">
-             Transform Your  Body, <span className="text-primary">Transform Your Life</span>
+             Transforme seu corpo, <span className="text-primary">Transforme sua vida</span>
              </motion.h1>
              
              <motion.p
@@ -29,7 +29,7 @@ export  default  function Hero () {
              animate={{opacity: 1, y: 0}}
              transition={{ delay: 0.3, duration: 0.7 }}
              className="text-xl  md:text-2xl mb-8 font-light leading-relaxed max-w-3xl mx-auto">
-                Join our Fitness programs and achieve your goals with expert trainer and personalized plans.
+               Participe de nossos programas de fitness e alcance seus objetivos com um treinador especializado e planos personalizados.
 
              </motion.p>
 
@@ -38,8 +38,12 @@ export  default  function Hero () {
              animate={{opacity: 1, y: 0}}
              transition={{ delay: 0.4, duration: 0.7 }}
              className="flex flex-col sm:flex-row gap-4 justify-center">
-                <Button size="lg" className="bg-primary hover:bg-primary/90 text-lg font-semibold transition-transform duration-300 hover:scale-105 px-8">Start Free Trial</Button>
-                <Button size="lg" variant="outline" className="bg-transparent text-lg font-semibold transition-transform duration-300 hover:scale-105 px-8">View Plans</Button>
+                <a 
+                 href="https://wa.me/5524999996655?text=Quero%20começar%20meu%20teste%20gratuito" 
+                 target="_blank" 
+                 rel="noopener noreferrer"
+                 ><Button size="lg" className="bg-primary hover:bg-primary/90 text-lg font-semibold transition-transform duration-300 hover:scale-105 px-8">Comece o teste gratuito</Button></a>
+                <a href="#preços"><Button size="lg" variant="outline" className="bg-transparent text-lg font-semibold transition-transform duration-300 hover:scale-105 px-8">Ver Planos</Button></a>
              </motion.div>
              
            

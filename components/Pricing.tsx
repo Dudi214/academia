@@ -7,7 +7,7 @@ import { Check } from "lucide-react";
 
 export default function Pricing() {
   return (
-   <section className="py-20 bg-background">
+   <section id="preços" className="py-20 bg-background">
                <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
                    <div className="text-center mb-16">
                        <motion.h2 
@@ -15,7 +15,7 @@ export default function Pricing() {
                        whileInView = {{opacity:1, y:0}}
                        viewport={{once: true}}
                        transition = {{duration:0.6, ease:"easeOut"}}
-                       className="text-4xl md:text-5xl font-black font-heading mb-4 text-foreground">Affordable<span className="text-primary">Plans</span> For Everyone</motion.h2>
+                       className="text-4xl md:text-5xl font-black font-heading mb-4 text-foreground"><span className="text-primary ml-2">Planos</span> Para todos</motion.h2>
                        
                        <motion.p 
                          initial = {{opacity:0, y: 12}}
@@ -25,7 +25,7 @@ export default function Pricing() {
                         
                        
                          className="text-xl text-muted-foreground max-w-2xl mx-auto">
-                           Choose the perfect plan that fits your budget and fitness goals. all plans include our core benefits.
+                           Escolha o plano perfeito que se adapta ao seu orçamento e metas de condicionamento físico. Todos os planos incluem nossos principais benefícios.
                                          </motion.p>
                                      </div>
 
@@ -42,7 +42,7 @@ export default function Pricing() {
                                          <Card className={`${plan.popular? "border-primary border-2 ring-1 ring-primary/20" : ""}`}>
                                           {plan.popular && (
                                            <Badge className="absolute -top-3 left-1/2 -translate-x-1/2 bg-primary text-primary-foreground px-6 py-1">
-                                            Most Popular
+                                            Mais populares
                                            </Badge>
                                           )}
                                           <CardHeader className="text-center p-8 pb-0">
@@ -81,7 +81,7 @@ export default function Pricing() {
                                       viewport={{once: true}}
                                       transition = {{duration:0.6, ease:"easeOut", delay:0.1}} 
                                       className="text-center mt-12">
-                                      <p className="text-muted-foreground">All plans include a 7-day free trial. No commitment required</p>
+                                      <p className="text-muted-foreground">Todos os planos incluem um teste gratuito de 7 dias. Não é necessário compromisso</p>
                                      </motion.div>
 
                                  </div>

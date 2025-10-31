@@ -4,9 +4,9 @@ import { Card, CardContent } from "./ui/card";
 import { Star } from "lucide-react";
 
 const testimonials = [
-  { name: "john d", image: "/pic-1.png", story: "I transformed my habits and regained my confidence through the program.", details: "I followed the coaching plan for 12 weeks and saw consistent progress in my fitness and mindset.", rating: 5 },
-  { name: "Sarah H", image: "/pic-2.png", story: "The coaching helped me build lasting routines and achieve real progress.", details: "The personalized guidance made it easy to stick with small daily habits that added up to big changes.", rating: 4 },
-  { name: "Mario Costa", image: "/pic-3.png", story: "I finally found a plan that fits my lifestyle and delivers results.", details: "Supportive coaching and practical tools helped me reach my goals while balancing work and family.", rating: 5 },
+  { name: "john d", image: "/pic-1.png", story: "Transformei meus hábitos e recuperei minha confiança através do programa.", details: "Segui o plano de Treinamento  por 12 semanas e vi um progresso consistente em meu condicionamento físico e mentalidade.", rating: 5 },
+  { name: "Sarah H", image: "/pic-2.png", story: "O Treinamento me ajudou a construir rotinas duradouras e a alcançar um progresso real.", details: "A orientação personalizada facilitou a manutenção de pequenos hábitos diários que resultaram em grandes mudanças.", rating: 4 },
+  { name: "Mario Costa", image: "/pic-3.png", story: "I finally found a plan that fits my lifestyle and delivers results.", details: "Treinamento de apoio e ferramentas práticas me ajudaram a atingir meus objetivos enquanto equilibrava trabalho e família.", rating: 5 },
 ];
 
 export default function Testimonials() {
@@ -21,7 +21,7 @@ export default function Testimonials() {
                   whileInView = {{opacity:1, y:0}}
                   viewport={{once: true}}
                   transition = {{duration:0.6, ease:"easeOut"}}
-                  className="text-4xl md:text-5xl font-black font-heading mb-4 text-foreground">Success Stories</motion.h2>
+                  className="text-4xl md:text-5xl font-black font-heading mb-4 text-foreground">Histórias de sucesso</motion.h2>
                   
                   <motion.p 
                     initial = {{opacity:0, y: 12}}
@@ -31,7 +31,7 @@ export default function Testimonials() {
                    
                   
                     className="text-xl text-muted-foreground max-w-2xl mx-auto">
-                      Real transformations, from real people who chose to change their lives with our programs.
+                      Transformações reais, de pessoas reais que escolheram mudar suas vidas com nossos programas.
                   </motion.p>
               </div>
 

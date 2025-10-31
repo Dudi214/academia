@@ -6,7 +6,7 @@ import Image from 'next/image';
 
 export default function Programs(){
     return( 
-     <section className="py-20 bg-foreground/4">
+     <section id="programas" className="py-20 bg-foreground/4">
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
             <div className="text-center mb-16">
                 <motion.h2 
@@ -14,7 +14,7 @@ export default function Programs(){
                 whileInView = {{opacity:1, y:0}}
                 viewport={{once: true}}
                 transition = {{duration:0.6, ease:"easeOut"}}
-                className="text-4xl md:text-5xl font-black font-heading mb-4 text-foreground">Our Programs</motion.h2>
+                className="text-4xl md:text-5xl font-black font-heading mb-4 text-foreground">Nossos Programas</motion.h2>
                 
                 <motion.p 
                   initial = {{opacity:0, y: 12}}
@@ -24,7 +24,7 @@ export default function Programs(){
                  
                 
                   className="text-xl text-muted-foreground max-w-2xl mx-auto">
-                    Choose From our comprehensive fitness programs designed to meet your specific goals and fitness level.
+                   Escolha entre nossos programas abrangentes de condicionamento físico projetados para atender às suas metas e nível de condicionamento físico específicos.
                 </motion.p>
             </div>
 
@@ -63,7 +63,7 @@ export default function Programs(){
                                 </motion.p>
 
                                 <div>
-                                    <Button variant="outline" className="w-full transition-colors duration-300 group-hover:bg-primary dark:group-hover:bg-primary group-hover:text-primary-foreground">Lear More</Button>
+                                    <Button variant="outline" className="w-full transition-colors duration-300 group-hover:bg-primary dark:group-hover:bg-primary group-hover:text-primary-foreground">Saiba mais</Button>
                                 </div>
 
 
