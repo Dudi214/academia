@@ -14,9 +14,9 @@ const oswald = Oswald({
 });
 
 export const metadata: Metadata = {
-  title: "FitPro Fitness — Transform Your Body, Transform Your Life",
+  title: "FitPro Fitness — Transforme seu corpo, transforme sua vida",
   description:
-    "Join our fitness programs and achieve your goals with expert trainers and personalized plans. Start your transformation today.",
+    "Participe de nossos programas  e alcance seus objetivos com treinadores especializados e planos personalizados. Comece sua transformação hoje.",
 };
 
 export default function RootLayout({
