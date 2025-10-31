@@ -29,7 +29,7 @@ export  default  function Hero () {
              animate={{opacity: 1, y: 0}}
              transition={{ delay: 0.3, duration: 0.7 }}
              className="text-xl  md:text-2xl mb-8 font-light leading-relaxed max-w-3xl mx-auto">
-               Participe de nossos programas de fitness e alcance seus objetivos com um treinador especializado e planos personalizados.
+               Participe de nossos programas e alcance seus objetivos com um treinador especializado e planos personalizados.
 
              </motion.p>
 
