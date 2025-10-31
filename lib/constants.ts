@@ -81,6 +81,8 @@ export const plans = [
         ],
         cta: "Comece agora",
         popular: false,
+
+         whatsapp: "https://wa.me/5524999996655?text=Quero%20assinar%20o%20plano%20B%C3%A1sico"
     },
 
     {
@@ -101,6 +103,9 @@ export const plans = [
         ],
         cta: "Comece agora",
         popular: true,
+
+        
+       whatsapp: "https://wa.me/5524999996655?text=Quero%20assinar%20o%20plano%20Pro"
     },
 
     {
@@ -121,5 +126,7 @@ export const plans = [
         ],
         cta: "Comece agora",
         popular: false,
+
+        whatsapp: "https://wa.me/5524999996655?text=Quero%20assinar%20o%20plano%20Elite"
     }
 ];

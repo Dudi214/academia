@@ -65,13 +65,13 @@ export default function Pricing() {
                                                 </li>
                                               ))}
                                             </ul>
-
-                                           <Button className={`w-full py-3 text-lg font-semibold transition-all duration-300
-                                            ${plan.popular 
-                                            ? "bg-primary hover:bg-primary/90 text-primary-foreground group-hover:bg-primary/90" 
-                                            : "bg-secondary hover:bg-primary text-primary-foreground dark:text-foreground group-hover:bg-primary group-hover:text-white"
-                                            }
-                                           `}></Button>
+                                            <a href={plan.whatsapp} target="_blank">
+                                            <Button className={`w-full py-3 text-lg font-semibold transition-all duration-300
+                                                       ${plan.popular 
+                                                       ? "bg-primary hover:bg-primary/90 text-primary-foreground group-hover:bg-primary/90" 
+                                                        : "bg-secondary hover:bg-primary text-primary-foreground dark:text-foreground group-hover:bg-primary group-hover:text-white"}`}>
+                                              {plan.cta}
+                                            </Button></a>
                                           </CardContent>
                                         </Card>
 
