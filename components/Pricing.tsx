@@ -66,9 +66,12 @@ export default function Pricing() {
                                               ))}
                                             </ul>
 
-                                            <Button className={`w-full py-3 text-lg font-semibold transition-color duration-300 ${plan.popular ? "bg-primary hover:bg-primary/90 text-primary-foreground" : "bg-secondary hover:bg-primary text-primary-foreground dark:text-foreground"}`}>
-                                              {plan.cta}
-                                            </Button>
+                                           <Button className={`w-full py-3 text-lg font-semibold transition-all duration-300
+                                            ${plan.popular 
+                                            ? "bg-primary hover:bg-primary/90 text-primary-foreground group-hover:bg-primary/90" 
+                                            : "bg-secondary hover:bg-primary text-primary-foreground dark:text-foreground group-hover:bg-primary group-hover:text-white"
+                                            }
+                                           `}></Button>
                                           </CardContent>
                                         </Card>
 
