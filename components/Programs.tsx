@@ -42,7 +42,7 @@ export default function Programs(){
                      key={program.title} className="group cursor-pointer">
                     
                         <Card className="p-0 transition-shadow duration-300 hover:shadow-2xl">
-                            <div className="relative overflow-hidden round-t-lg w-full h-60 md:h-56 lg:h-60">
+                            <div className="relative overflow-hidden rounded-t-lg w-full h-60 md:h-56 lg:h-60">
                                 <Image src={program.image} alt={program.alt} width={500} height={400} className="object-cover transition-transform duration-500 group-hover:scale-110"/>
                             </div>
 
